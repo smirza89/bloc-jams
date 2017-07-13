@@ -1,0 +1,5 @@
+1) Absolute positioning is independant to the flow of the HTML file and styling. Thus all positioning and coordinates that are set for that specific content 
+are relative to its parents position. While relative positioning is dependant of the flow of the HTML document and dependant of its original position in 
+the file. Based on that original relative position its coordinates on the document can be set.
+2) Box-sizing: border box treats its content differently by ensuring that its original width and height are not changed when the padding width is changed.
+This is because originally if the box-sizing default used, and padding is changed, this then adds and changes the size of the overall box.
