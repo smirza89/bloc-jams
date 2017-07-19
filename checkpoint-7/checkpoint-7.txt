@@ -1,0 +1,39 @@
+1) 
+http://www.codewars.com/kata/57a083a57cb1f31db7000028/train/javascript
+var n=4;
+function powersOfTwo(n){
+  var powArray = [];
+  for(var i=0; i<=n; i++){
+    powArray.push(Math.pow(2,i));
+    console.log(powArray);
+  }
+  return powArray;
+}
+
+2)
+http://www.codewars.com/kata/56582133c932d8239900002e/train/javascript
+function mostFrequentItemCount(collection) {
+  // Do your magic. :)
+  var counSel;
+  var frequentVal=0;
+	for(var i=0; i<collection.length; i++){
+  	counSel= collection[i];
+    var counter=0;
+    for(var j=0; j<collection.length; j++){
+    	if(counSel==collection[j]){
+      	counter++;
+     }
+      if(frequentVal<counter){
+      	frequentVal=counter;
+      }
+    }
+  }
+  return frequentVal;
+}
+
+3)
+http://www.codewars.com/kata/525f50e3b73515a6db000b83/train/javascript
+function createPhoneNumber(numbers){
+
+  return "("+numbers[0]+numbers[1]+numbers[2]+") "+numbers[3]+numbers[4]+numbers[5]+"-"+numbers[6]+numbers[7]+numbers[8]+numbers[9];
+}
