@@ -1,0 +1,4 @@
+1) InnerText: takes into account all the CSS styling and outputs it, however, it takes only the content text from the Body tag.
+   textContent: takes all HTML element and tag text. As well as looks at all the scripts and css files loaded and loads all that text.
+
+http://jsbin.com/haruhek/edit?html,js,console,output
